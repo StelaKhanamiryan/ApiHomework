@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHomework", "ApiHomework\ApiHomework.csproj", "{E4813CE3-7118-49C0-984C-B0621C737B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiHomework", "ApiHomework\ApiHomework.csproj", "{E4813CE3-7118-49C0-984C-B0621C737B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHomeworkDAL", "ApiHomeworkDAL\ApiHomeworkDAL.csproj", "{C659E359-405C-4FE1-8725-B65FFC37707B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHomeworkService", "ApiHomeworkService\ApiHomeworkService.csproj", "{D14F8234-FF13-429F-B493-D96A56F0210C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E4813CE3-7118-49C0-984C-B0621C737B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4813CE3-7118-49C0-984C-B0621C737B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4813CE3-7118-49C0-984C-B0621C737B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C659E359-405C-4FE1-8725-B65FFC37707B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C659E359-405C-4FE1-8725-B65FFC37707B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C659E359-405C-4FE1-8725-B65FFC37707B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C659E359-405C-4FE1-8725-B65FFC37707B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14F8234-FF13-429F-B493-D96A56F0210C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14F8234-FF13-429F-B493-D96A56F0210C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14F8234-FF13-429F-B493-D96A56F0210C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14F8234-FF13-429F-B493-D96A56F0210C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
